@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>2</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 170, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>80</y>
+      <width>481</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candy Buzz BTN</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>  CHERIF YANKHOBA DIALLO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>391</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candy Buzz BTN</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-bottom-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>        MAIMOUNA WONE</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QMenu" name="menuACCEUIL">
+    <property name="title">
+     <string>ACCEUIL</string>
+    </property>
+    <addaction name="actionCHARGER_FICHIER"/>
+    <addaction name="actionVIDER"/>
+    <addaction name="actionQUIT"/>
+   </widget>
+   <widget class="QMenu" name="menuDONNEES">
+    <property name="title">
+     <string>DONNEES</string>
+    </property>
+    <addaction name="actionMES_ENTREES"/>
+   </widget>
+   <widget class="QMenu" name="menuCALCUL">
+    <property name="title">
+     <string>CALCUL</string>
+    </property>
+    <addaction name="actionVOIR"/>
+   </widget>
+   <widget class="QMenu" name="menuPERCEPTRON">
+    <property name="title">
+     <string>PERCEPTRON</string>
+    </property>
+    <addaction name="actionVOIR_2"/>
+   </widget>
+   <widget class="QMenu" name="menuVERIFIONS">
+    <property name="title">
+     <string>VERIFICATION</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <addaction name="menuACCEUIL"/>
+   <addaction name="menuDONNEES"/>
+   <addaction name="menuCALCUL"/>
+   <addaction name="menuPERCEPTRON"/>
+   <addaction name="menuVERIFIONS"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCHARGER_FICHIER">
+   <property name="text">
+    <string>CHARGER FICHIER</string>
+   </property>
+  </action>
+  <action name="actionQUIT">
+   <property name="text">
+    <string>QUIT</string>
+   </property>
+  </action>
+  <action name="actionMES_ENTREES">
+   <property name="text">
+    <string>MES ENTREES</string>
+   </property>
+  </action>
+  <action name="actionVIDER">
+   <property name="text">
+    <string> VIDER CHARGEMENT</string>
+   </property>
+  </action>
+  <action name="actionVOIR">
+   <property name="text">
+    <string>VOIR</string>
+   </property>
+  </action>
+  <action name="actionVOIR_2">
+   <property name="text">
+    <string>VOIR</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>Verifions</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
